@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neoulmini Pictograms - Symbol Library</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+        }
+        h1, h2, h3 {
+            font-family: 'Oswald', sans-serif;
+            color: #2c3e50;
+        }
+        h1 { font-size: 2.3em; }
+        h2 {
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+        .picto-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .picto-card {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .symbol {
+            font-size: 3em;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .category {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+        .disclaimer {
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #6c757d;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+		        .creative-header {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        .use-cases {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .use-case {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            flex: 1 1 200px;
+        }
+        .use-case h4 {
+            color: #3498db;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Neoulmini artPictograms</h1>
+        <p>An experimental symbolic library based on the Neoulmini language</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="creative-header">
+                <h2>About This Creative Project</h2>
+                <p>This experimental collection transforms the <a href="https://neoulmini.github.io">Neoulmini language</a> (I. Beklemishchev-Petrov, 2025) into a versatile toolkit for creative professionals. While rooted in the original 12-glyph system, with only minor stylistic adaptations for digital use, these pictograms are reimagined as:</p>
+                
+                <div class="use-cases">
+                    <div class="use-case">
+                        <h4>Game Design Assets</h4>
+                        <p>Alien alphabets, puzzle elements, and UI icons for tabletop and digital games</p>
+                    </div>
+                    <div class="use-case">
+                        <h4>Generative Art</h4>
+                        <p>Building blocks for algorithmic compositions and NFT art projects</p>
+                    </div>
+                    <div class="use-case">
+                        <h4>Sci-Fi Worldbuilding</h4>
+                        <p>Futuristic interfaces, extraterrestrial signage, and in-universe symbolism</p>
+                    </div>
+                    <div class="use-case">
+                        <h4>Design Systems</h4>
+                        <p>Abstract visual language for branding and experimental UI/UX</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="basic-pictograms">
+    <h2>Basic Operations</h2>
+    <div class="picto-grid">
+        <div class="picto-card">
+            <span class="symbol">● → □</span>
+            <p><strong>Insert Object</strong></p>
+            <p class="category">Container operation</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">⊙ → ●</span>
+            <p><strong>Energy Transfer</strong></p>
+            <p class="category">Power systems</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">↑●</span>
+            <p><strong>Enlarge Object</strong></p>
+            <p class="category">Editing</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">●§●</span>
+            <p><strong>Linked Objects</strong></p>
+            <p class="category">Relations</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">□‖●</span>
+            <p><strong>Contained Barrier</strong></p>
+            <p class="category">Security</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">● ← □</span>
+            <p><strong>Extract Object</strong></p>
+            <p class="category">Container operation</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">⊙ ← ●</span>
+            <p><strong>Energy Drain</strong></p>
+            <p class="category">Power systems</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">↓●</span>
+            <p><strong>Shrink Object</strong></p>
+            <p class="category">Editing</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">●‖●</span>
+            <p><strong>Separated Objects</strong></p>
+            <p class="category">Relations</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">□§●</span>
+            <p><strong>Container Link</strong></p>
+            <p class="category">Security</p>
+        </div>
+    </div>
+</section>
+
+<section id="navigation">
+    <h2>Navigation & Control</h2>
+    <div class="picto-grid">
+        <div class="picto-card">
+            <span class="symbol">→ → →</span>
+            <p><strong>Forward Path</strong></p>
+            <p class="category">Directional</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">↑□</span>
+            <p><strong>Elevated Platform</strong></p>
+            <p class="category">Location</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">● ∞</span>
+            <p><strong>Persistent Object</strong></p>
+            <p class="category">Storage</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">!‖</span>
+            <p><strong>Secure Barrier</strong></p>
+            <p class="category">Safety</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">§∞</span>
+            <p><strong>Permanent Connection</strong></p>
+            <p class="category">Networking</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">← ← ←</span>
+            <p><strong>Return Path</strong></p>
+            <p class="category">Directional</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">↓□</span>
+            <p><strong>Lowered Platform</strong></p>
+            <p class="category">Location</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">● ⊙ ●</span>
+            <p><strong>Energy Pathway</strong></p>
+            <p class="category">Networking</p>
+        </div>
+    </div>
+</section>
+
+<section id="status">
+    <h2>Status Indicators</h2>
+    <div class="picto-grid">
+        <div class="picto-card">
+            <span class="symbol">⊙ !</span>
+            <p><strong>Energy Warning</strong></p>
+            <p class="category">Alerts</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">↓●</span>
+            <p><strong>Reduced State</strong></p>
+            <p class="category">State</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">?□</span>
+            <p><strong>Unknown Container</strong></p>
+            <p class="category">Inquiry</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">⁂⊙</span>
+            <p><strong>Complex Energy</strong></p>
+            <p class="category">System</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">●↓→</span>
+            <p><strong>Object Decay</strong></p>
+            <p class="category">Process</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">⊙ §</span>
+            <p><strong>Energy Stable</strong></p>
+            <p class="category">Alerts</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">↑●</span>
+            <p><strong>Enhanced State</strong></p>
+            <p class="category">State</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">?●</span>
+            <p><strong>Unknown Object</strong></p>
+            <p class="category">Inquiry</p>
+        </div>
+    </div>
+</section>
+
+<section id="advanced">
+    <h2>Advanced Systems</h2>
+    <div class="picto-grid">
+        <div class="picto-card">
+            <span class="symbol">⁂§⁂</span>
+            <p><strong>System Integration</strong></p>
+            <p class="category">Engineering</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">∞ → ∞</span>
+            <p><strong>Infinite Cycle</strong></p>
+            <p class="category">Time</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">□§□</span>
+            <p><strong>Interconnected</strong></p>
+            <p class="category">Structure</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">!⊙→</span>
+            <p><strong>Dangerous Flow</strong></p>
+            <p class="category">Hazard</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">↑↓●</span>
+            <p><strong>Oscillation</strong></p>
+            <p class="category">Motion</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">⁂∞⁂</span>
+            <p><strong>Eternal System</strong></p>
+            <p class="category">Engineering</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">□‖□</span>
+            <p><strong>Isolated Containers</strong></p>
+            <p class="category">Structure</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">!§→</span>
+            <p><strong>Corrupted Link</strong></p>
+            <p class="category">Hazard</p>
+        </div>
+    </div>
+</section>
+
+<section id="composite">
+    <h2>Composite Glyphs</h2>
+    <div class="picto-grid">
+        <div class="picto-card">
+            <span class="symbol">□●‖⊙</span>
+            <p><strong>Protected Core</strong></p>
+            <p class="category">Security</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">●→□§∞</span>
+            <p><strong>Permanent Archive</strong></p>
+            <p class="category">Storage</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">⁂!⁂</span>
+            <p><strong>System Crash</strong></p>
+            <p class="category">Error</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">⊙→□‖●</span>
+            <p><strong>Energy Filter</strong></p>
+            <p class="category">Processing</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">↑●↓●</span>
+            <p><strong>Balance</strong></p>
+            <p class="category">State</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">□⊙‖●∞</span>
+            <p><strong>Sustained Reactor</strong></p>
+            <p class="category">Security</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">●§□‖⊙</span>
+            <p><strong>Linked Shield</strong></p>
+            <p class="category">Security</p>
+        </div>
+        <div class="picto-card">
+            <span class="symbol">⁂⊙⁂</span>
+            <p><strong>Energy Network</strong></p>
+            <p class="category">Networking</p>
+        </div>
+    </div>
+</section>
+
+        <section id="license">
+            <h2>License & Attribution</h2>
+            <p>This project is based on the original <a href="https://neoulmini.github.io">Neoulmini language</a> by I. Beklemishchev-Petrov, used under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>.</p>
+            <p><strong>You may:</strong> Share and adapt these pictograms for non-commercial purposes, with attribution to both the original author and this project.</p>
+        </section>
+    </main>
+
+    <footer>
+	    <p>Visual adaptation by <strong>Luna J. Ornello</strong> © 2025</p>
+        <p>Neoulmini artPictograms Project (2025) | CC BY-NC-SA 4.0</p>
+		<p>Based on work by I. Beklemishchev-Petrov | All language rights belong to the original author</p>
+        <p>No cookies used | Any use encouraged</p>
+    </footer>
+</body>
+</html>
